@@ -56,8 +56,8 @@ h1 {
 }
 
 .gallery {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px; /* Spaziatura tra gli elementi della galleria */
 }
 
