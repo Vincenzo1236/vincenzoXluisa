@@ -6,8 +6,9 @@
 }
 
 body {
+    overflow: auto; 
+    height: auto; 
     font-family: Arial, sans-serif;
-    height: 100vh;
     margin: 0;
     display: flex;
     justify-content: center;
